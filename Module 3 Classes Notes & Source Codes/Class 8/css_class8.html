@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Size Units</title>
+
+    <style>
+        /* Percentage (%) */
+        /* .container{
+            border: 2px solid black;
+            background-color: bisque;
+            
+            width: 10%;
+            
+        } */
+
+        /* vh & vw */
+        /* .responsive-height {
+            height: 50vh;
+            width: 50vw;
+            background-color: lightblue;
+        } */
+
+        /* Pixel (px) */
+        /* .container p{
+            font-size: 50px;
+        } */
+
+        /* em & rem */
+        .parent_element{
+            font-size: 20px;
+        }
+        .child_element{
+            /* 20 x 3 = 60 */
+            font-size: 2.5em;
+        }
+
+        span{
+            font-size: 5rem;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <!-- Percentage (%) -->
+    <!-- <div class="container">
+        Container Div.
+    </div> -->
+
+    <!-- vh & vw -->
+    <!-- <div class="responsive-height">
+            This div is 50% of the viewport height.
+    </div> -->
+
+    <!-- <div class="container">
+        <p>
+            This is TAJ Institute official website.
+        </p>
+    </div> -->
+
+    <div class="parent_element">
+        <p class="child_element">
+            This is TAJ Institute official website.
+        </p>
+    </div> 
+
+    <span>This is rem element.</span>
+</body>
+</html>
